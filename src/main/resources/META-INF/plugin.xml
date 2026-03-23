@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>com.vaviz.nocturna</id>
   <name>Nocturna</name>
-  <vendor email="sam@rmcreative.ru" url="https://rmcreative.ru">Alexander Makarov</vendor>
+  <vendor email="sam@rmcreative.ru" url="https://rmcreative.ru">Vinicius Aviz</vendor>
 
   <extensions defaultExtensionNs="com.intellij">
     <themeProvider id="e843a6a0-d4df-4c2a-b5b6-99dcbb839b8d" path="/nocturna.theme.json"/>

@@ -1,7 +1,7 @@
 {
   "name": "Nocturna",
   "dark": true,
-  "author": "Alexander Makarov",
+  "author": "Vinicius Aviz",
   "editorScheme": "/nocturna.xml",
   "parentTheme": "Islands Dark",
   "colors": {
@@ -47,10 +47,9 @@
       "underlineColor": "accent",
       "underlinedTabBackground": "editor",
       "underlinedTabForeground": "selectedText",
-
       "selectedBackground": "inactiveTab"
     },
-    "Panel" : {
+    "Panel": {
       "foreground": "#acacac"
     },
     "Tree": {
