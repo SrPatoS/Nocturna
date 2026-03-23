@@ -1,0 +1,97 @@
+{
+  "name": "Nocturna",
+  "dark": true,
+  "author": "Alexander Makarov",
+  "editorScheme": "/nocturna.xml",
+  "parentTheme": "Islands Dark",
+  "colors": {
+    "background": "#000000",
+    "editor": "#070709",
+    "inactiveTab": "#000000",
+    "selection": "#094770",
+    "text": "#c2c2c2",
+    "selectedText": "#ffffff",
+    "inactiveSelection": "#1A1D21",
+    "accent": "#4a88c7",
+    "menuBorder": "#212224"
+  },
+  "ui": {
+    "*": {
+      "foreground": "text",
+      "background": "background",
+      "selectionBackground": "selection",
+      "selectionForeground": "selectedText",
+      "separatorColor": "menuBorder",
+      "arc": 8,
+      "Island.borderColor": "background"
+    },
+    "MainToolbar": {
+      "background": "background",
+      "borderColor": "#00000000"
+    },
+    "Editor": {
+      "background": "editor"
+    },
+    "Borders": {
+      "color": "background",
+      "ContrastBorderColor": "background"
+    },
+    "DefaultTabs": {
+      "background": "inactiveTab",
+      "hoverBackground": "inactiveTab",
+      "borderColor": "background"
+    },
+    "EditorTabs": {
+      "underlineHeight": 3,
+      "inactiveUnderlineColor": "accent",
+      "underlineColor": "accent",
+      "underlinedTabBackground": "editor",
+      "underlinedTabForeground": "selectedText",
+
+      "selectedBackground": "inactiveTab"
+    },
+    "Panel" : {
+      "foreground": "#acacac"
+    },
+    "Tree": {
+      "modifiedItemForeground": "accent",
+      "selectionInactiveBackground": "inactiveSelection",
+      "Selection.arc": 0
+    },
+    "Menu": {
+      "borderColor": "menuBorder"
+    },
+    "Popup": {
+      "borderColor": "menuBorder"
+    },
+    "PopupMenuSeparator": {
+      "height": 13,
+      "stripeIndent": 6,
+      "stripeWidth": 1
+    },
+    "MenuBar": {
+      "borderColor": "background"
+    },
+    "NavBar": {
+      "borderColor": "#323232"
+    },
+    "Button": {
+      "arc": 2
+    },
+    "StatusBar": {
+      "borderColor": "#00000000"
+    },
+    "ToolWindow": {
+      "Header": {
+        "borderColor": "background",
+        "inactiveBackground": "background"
+      },
+      "Stripe": {
+        "borderColor": "#00000000"
+      },
+      "Button": {
+        "hoverBackground": "inactiveSelection"
+      }
+    }
+  }
+}
